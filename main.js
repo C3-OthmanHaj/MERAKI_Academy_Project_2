@@ -65,10 +65,10 @@ const books = [
         description :"regretted it - but he had indeed just received his instructions, and, very touched by a choice of which he felt all the honor, he intended to vigorously defend the rights of his client. So he opened the newly created file and, bluntly, exhibited the commander's letter. It proved the assignment of the note but did not mention the name of the purchaser. My dear friend .. she said simply.My dear friend, it is me, added Arsène Lupine in a note attached to the letter from the commander. And the best proof is that I have the letter." ,
     },
     {
-        name : "",
-        author :"",
-        year :  ,
-        description :"",
+        name : "The Secret",
+        author :"Rhonda Byrne",
+        year : 2006 ,
+        description :"In this book, you’ll learn how to use The Secret in every aspect of your life—money, health, relationships, happiness, and in every interaction you have in the world. You’ll begin to understa",
     },
     {
         name : "" ,
