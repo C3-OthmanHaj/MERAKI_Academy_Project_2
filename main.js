@@ -89,10 +89,10 @@ const books = [
         description :"Dostoyevsky is intimately linked with his heroes. It is his blood that courses through their veins, and his heart that beats in all of them. Dostoyevsky brings forth his characters in anguish, with throbbing pulse and breath that is gasping and labored. He commits the crimes his heroes commit, lives their titanically turbulent lives, repents with them, and is with them in his thoughts, which shake heaven and earth. Because of his urge to go through more and more experience with them with such terrible concreteness, we are shaken by him as by no one else.",
     },
     {
-        name : "",
-        author :"", 
-        year : ,
-        description :"",
+        name : "King of Light",
+        author :"Young-Rock Lee", 
+        year :  2011 ,
+        description :"from back of book in original language (Korean): From now on, we must look at Scripture again. Scripture is food of the spirit. Now; we must look in the spirit the Word which we've thus far seen in the flesh. We must see the Word in the spirit so that the inside of man's spirit can change into God's world, which is the spirit. By the Word, the Holy Spirit reforms and changes our spirits, opens our spiritual eyes so that we can correctly see God's truth, and allows us to meet God's deep place of love. This text is a complete text that spiritually opens the deep secrets of Jesus and the cross. Through this book, one can see with spiritual eyes God's astonishing plan and will. And it is certain that by the Word, we can meet the second coming, which is our hope. If I lay myself down and open the eyes of my spirit, I can meet God.",
     },
     
 ];
