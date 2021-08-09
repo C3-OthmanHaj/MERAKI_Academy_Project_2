@@ -71,10 +71,10 @@ const books = [
         description :"In this book, you’ll learn how to use The Secret in every aspect of your life—money, health, relationships, happiness, and in every interaction you have in the world. You’ll begin to understa",
     },
     {
-        name : "" ,
-        author :"",
-        year : ,
-        description :"",
+        name : "Harry Potter " ,
+        author :"J.K. Rowling",
+        year :  2012 ,
+        description :" The arrival of the Knight Bus signals the start of another extraordinary Hogwarts year for Harry Potter. Sirius Black, escaped mass-murderer, is on the run - and apparently he's after Harry. Meanwhile, Professor Trelawney sees a death omen in Harry's tea leaves. But perhaps most terrifying of all are the Dementors patrolling Hogwarts' grounds...",
     },
     {
         name : "",
