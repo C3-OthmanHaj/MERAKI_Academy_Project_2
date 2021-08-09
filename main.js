@@ -77,10 +77,10 @@ const books = [
         description :" The arrival of the Knight Bus signals the start of another extraordinary Hogwarts year for Harry Potter. Sirius Black, escaped mass-murderer, is on the run - and apparently he's after Harry. Meanwhile, Professor Trelawney sees a death omen in Harry's tea leaves. But perhaps most terrifying of all are the Dementors patrolling Hogwarts' grounds...",
     },
     {
-        name : "",
-        author :"",
-        year : ,
-        description :"",
+        name : "The Time Machine",
+        author :"Herbert George Wells",
+        year : 1895 ,
+        description :"The Time Machine is a science fiction novella by H. G. Wells, published in 1895 and written as a frame narrative. The work is generally credited with the popularization of the concept of time travel by using a vehicle or device to travel purposely and selectively forward or backward through time. The term time machine, coined by Wells, is now almost universally used to refer to such a vehicle or device.",
     },
     {
         name : "", 
