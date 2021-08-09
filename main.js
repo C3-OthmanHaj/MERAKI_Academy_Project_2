@@ -41,64 +41,64 @@ const books = [
         description :"From the Flap In his most unusual bestseller, the man who knows better than anyone else in the world what scares us and why, takes us on his personal--and terrifying--tour of the dark ballroom of Horror itself." ,
     },
     {
-        name : ""
-        author :""
-        year :
-        description :""
+        name : "Misery",
+        author :"Stephen King",
+        year : 1987 ,
+        description :"Misery is an American psychological horror thriller novel written by Stephen King and first published by Viking Press on June 8, 1987.[1] The novel's narrative is based on the relationship of its two main characters – the romance novelist Paul Sheldon and his deranged fan Annie Wilkes. When Paul is seriously injured following a car accident, former nurse Annie brings him to her home, where Paul receives treatment and doses of pain medication. Paul realizes that he is a prisoner and is forced to indulge his captor's whims.",
     },
     {
-        name : ""
-        author :""
-        year :
-        description :""
+        name : "Rich Dad Poor Dad" ,
+        author :"Robert T. Kiyosaki" , 
+        year :  2000 ,
+        description :"Rich Dad Poor Dad is a 1997 book written by Robert Kiyosaki and Sharon Lechter. It advocates the importance of financial literacy (financial education), financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligence (financial IQ)." ,
     },
     {
-        name : ""
-        author :""
-        year :
-        description :""
+        name : "The 48 Laws of Power" ,
+        author :"Robert Greene" ,
+        year : 1998 ,
+        description :"Greene initially formulated some of the ideas in The 48 Laws of Power while working as a writer in Hollywood and concluding that today's power elite shared similar traits with powerful figures throughout history.In 1995, Greene worked as a writer at Fabrica, an art and media school, and met a book packager named Joost Elffers. Greene pitched a book about power to Elffers and six months later, Elffers requested that Greene write a treatment.",
     },
     {
-        name : ""
-        author :""
-        year :
-        description :""
+        name : "Arsène Lupin",
+        author :"Maurice LeBlanc",
+        year :  1908 ,
+        description :"regretted it - but he had indeed just received his instructions, and, very touched by a choice of which he felt all the honor, he intended to vigorously defend the rights of his client. So he opened the newly created file and, bluntly, exhibited the commander's letter. It proved the assignment of the note but did not mention the name of the purchaser. My dear friend .. she said simply.My dear friend, it is me, added Arsène Lupine in a note attached to the letter from the commander. And the best proof is that I have the letter." ,
     },
     {
-        name : ""
-        author :""
-        year :
-        description :""
+        name : "",
+        author :"",
+        year :  ,
+        description :"",
     },
     {
-        name : ""
-        author :""
-        year :
-        description :""
+        name : "" ,
+        author :"",
+        year : ,
+        description :"",
     },
     {
-        name : ""
-        author :""
-        year :
-        description :""
+        name : "",
+        author :"",
+        year : ,
+        description :"",
     },
     {
-        name : ""
-        author :""
-        year :
-        description :""
+        name : "", 
+        author :"",
+        year : ,
+        description :"",
     },
     {
-        name : ""
-        author :""
-        year :
-        description :""
+        name : "",
+        author :"", 
+        year : ,
+        description :"",
     },
     {
-        name : ""
-        author :""
-        year :
-        description :""
+        name : "",
+        author :"",
+        year : ,
+        description :"",
     }
 
 ];
