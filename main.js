@@ -1,7 +1,8 @@
 const body = $("body")
-body.append(body)
 
-books.append(books)
+
+
+// const bookContainer = $(".books")
 
 const books = [
     {
@@ -94,5 +95,26 @@ const books = [
         year :  2011 ,
         description :"from back of book in original language (Korean): From now on, we must look at Scripture again. Scripture is food of the spirit. Now; we must look in the spirit the Word which we've thus far seen in the flesh. We must see the Word in the spirit so that the inside of man's spirit can change into God's world, which is the spirit. By the Word, the Holy Spirit reforms and changes our spirits, opens our spiritual eyes so that we can correctly see God's truth, and allows us to meet God's deep place of love. This text is a complete text that spiritually opens the deep secrets of Jesus and the cross. Through this book, one can see with spiritual eyes God's astonishing plan and will. And it is certain that by the Word, we can meet the second coming, which is our hope. If I lay myself down and open the eyes of my spirit, I can meet God.",
     },
-    
+    {
+        name : "Diary of a Wimpy Kid" ,
+        author : "Tskim515" ,
+        year : 2014 ,
+        description : "The launch of an exciting and innovatively illustrated new series narrated by an unforgettable kid every family can relate to It’s a new school year, and Greg Heffley finds himself thrust into middle school, where undersized weaklings share the hallways with kids who are taller, meaner, and already shaving. The hazards of growing up before you’re ready are uniquely revealed through words and drawings as Greg records them in his diary."
+    }
+
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
