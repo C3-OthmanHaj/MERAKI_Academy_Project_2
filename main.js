@@ -83,10 +83,10 @@ const books = [
         description :"The Time Machine is a science fiction novella by H. G. Wells, published in 1895 and written as a frame narrative. The work is generally credited with the popularization of the concept of time travel by using a vehicle or device to travel purposely and selectively forward or backward through time. The term time machine, coined by Wells, is now almost universally used to refer to such a vehicle or device.",
     },
     {
-        name : "", 
-        author :"",
-        year : ,
-        description :"",
+        name : "A Funny Man's Dream", 
+        author :"Fyodor Dostoyevsky",
+        year : 2000 ,
+        description :"Dostoyevsky is intimately linked with his heroes. It is his blood that courses through their veins, and his heart that beats in all of them. Dostoyevsky brings forth his characters in anguish, with throbbing pulse and breath that is gasping and labored. He commits the crimes his heroes commit, lives their titanically turbulent lives, repents with them, and is with them in his thoughts, which shake heaven and earth. Because of his urge to go through more and more experience with them with such terrible concreteness, we are shaken by him as by no one else.",
     },
     {
         name : "",
@@ -94,11 +94,5 @@ const books = [
         year : ,
         description :"",
     },
-    {
-        name : "",
-        author :"",
-        year : ,
-        description :"",
-    }
-
+    
 ];
