@@ -1,5 +1,9 @@
 const body = $("body")
 
+// you should invok the books 
+// How ?
+// use for each 
+// or plane B ==> use div for every single one
 
 
 // const bookContainer = $(".books")
@@ -7,8 +11,8 @@ const body = $("body")
 const books = [
     {
         name: "The Full Stack Developer",
-        Year: 2018,
         author: "Chris Northwood",
+        year: 2018,
         description:  "Understand the technical foundations, as well as the non-programming skills needed to be a successful full stack web developer. This book reveals the reasons why a truly successful full stack developer does more than write code. You will learn the principles of the topics needed to help a developer new to agile or full stack working―UX, project management, QA, product management, and more― all from the point of view of a developer.",
     },
     {
@@ -105,7 +109,23 @@ const books = [
 ];
 
 
+const read = () => {
+            
+$.each(books, (element , value) =>{
+$("body").append("<div>" +value.name+ value.author+ value.year+ value.description+ "</div>")
 
+
+// console.log(.name);
+})
+// console.log(element.author);
+}
+read();
+
+// const bbb = $(".books1")
+//      books.forEach(function (element) {
+//      bbb.text(element.name)
+//     }) 
+// }
 
 
 
