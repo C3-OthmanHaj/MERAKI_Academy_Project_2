@@ -4,9 +4,11 @@ const body = $("body")
 // How ?
 // use for each 
 // or plane B ==> use div for every single one
-
-
 // const bookContainer = $(".books")
+
+
+
+
 
 const books = [
     {
@@ -109,18 +111,22 @@ const books = [
 ];
 
 
+//you need to put div=>all books in *div books1*
+//try use .css to make it easy 
+//try prependTo() or append
+
+
+
 const read = () => {
             
 $.each(books, (element , value) =>{
-$("body").append("<div>" +value.name+ value.author+ value.year+ value.description+ "</div>")
+$(".books1").append("<div>" +value.name+ value.author+ value.year+ value.description+ "</div>")
 
-
-// console.log(.name);
+// console.log(name);
 })
 // console.log(element.author);
 }
 read();
-
 // const bbb = $(".books1")
 //      books.forEach(function (element) {
 //      bbb.text(element.name)
