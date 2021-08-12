@@ -1,14 +1,15 @@
 body{
-    background-image: url(patrick.jpg.jpg);
+    background-image: url(backgraund.jpg.jpg);
     background-size: 600px;
+    margin: 0;
 }
 .header {
-    color: black;
-    /* background-color:blanchedalmond ; */
+    color: #0A1D37;
+    /* background-color:#F1ECC3 ; */
     padding: 15px;
     margin:0 ;
-    border-radius: 20px 20px 20px 20px;
-    border: 3px solid black;
+    border-radius:  20px 20px;
+    border-bottom: 3px solid black;
     font-size:20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -18,7 +19,63 @@ body{
     grid-template-columns: 50% 50% ;
     gap: 50px;
     margin: 70px;
-    color: black ;
+    color: red ;
     font-size: 25px;
     
+}
+img {
+    width: 400px;
+    align-items: center;
+}
+.book1 {
+    /* border:2px solid black; */
+    font-size: 15px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+}
+.book1 :hover {
+        box-shadow: 0 8px 16px  rgba(0,0,0,0.2);
+}
+
+.book2 {
+    font-size: 15px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+}
+.book2 :hover {
+        box-shadow: 0 8px 16px  rgba(0,0,0,0.2);
+}
+.book3 {
+    font-size: 15px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+}
+.book3 :hover {
+        box-shadow: 0 8px 16px  rgba(0,0,0,0.2);
+}
+.book4 {
+    font-size: 15px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+}
+.book4 :hover {
+        box-shadow: 0 8px 16px  rgba(0,0,0,0.2);
+}
+.book5 {
+    font-size: 15px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+}
+.book5 :hover {
+        box-shadow: 0 8px 16px  rgba(0,0,0,0.2);
 }
