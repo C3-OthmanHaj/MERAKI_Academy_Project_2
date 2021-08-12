@@ -124,11 +124,9 @@ const body = $("body")
 
 // ];
 
-
 //you need to put div=>all books in *div books1*
 //try use .css to make it easy 
 //try prependTo() or append
-
 
 
 const read = () => {

@@ -4,16 +4,33 @@ body{
     margin: 0;
 }
 .header {
-    color: #0A1D37;
-    /* background-color:#F1ECC3 ; */
+    color: #fff;
+    background-color:black ;
     padding: 15px;
     margin:0 ;
-    border-radius:  20px 20px;
+    border-radius: 0 0 20px 20px;
     border-bottom: 3px solid black;
-    font-size:20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    font-family:sans-serif;
 }
+.titel {
+    text-align: center; 
+    font-size:50px;
+}
+.
+/* @media screen and (max-width: 300px) {
+    .books1 { 
+    display: block;
+    width: 100%;
+    height: 100%;
+    }
+}      */
+/* @media screen and (orientation: portrait) {
+	.books1 {
+    display: flex;
+	width: 100%;
+
+	}
+} */
 .books1 {
     display: grid;
     grid-template-columns:  50% 50% ;
@@ -109,5 +126,32 @@ img {
     padding: 2px 16px;
 }
 .book9 :hover {
+        box-shadow: 0 8px 16px  rgba(0,0,0,0.2);
+}
+.book10 {
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+}
+.book10 :hover {
+        box-shadow: 0 8px 16px  rgba(0,0,0,0.2);
+}
+.book11 {
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+}
+.book11 :hover {
+        box-shadow: 0 8px 16px  rgba(0,0,0,0.2);
+}
+.book12 {
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+}
+.book12 :hover {
         box-shadow: 0 8px 16px  rgba(0,0,0,0.2);
 }
