@@ -4,19 +4,20 @@ body{
     margin: 0;
 }
 .header {
-    color: #fff;
-    background-color:black ;
+    background-color:burlywood ;
     padding: 15px;
     margin:0 ;
     border-radius: 0 0 20px 20px;
     border-bottom: 3px solid black;
     font-family:sans-serif;
+    text-decoration: none;
 }
 .titel {
+    color: #000;
     text-align: center; 
     font-size:50px;
 }
-.
+
 /* @media screen and (max-width: 300px) {
     .books1 { 
     display: block;
