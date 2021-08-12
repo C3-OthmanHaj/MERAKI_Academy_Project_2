@@ -1,86 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-    crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
 
     <title>Project2</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <div class="header">
-        <h1>Books Lover</h1> 
+      <h1>Books Lover</h1>
     </div>
 
     <div class="books1">
-        <div class="book1">
-            <img src="./imgs/book1.jpg" alt="book1">
-            <h3> Name: The Full Stack Developer</h3>
-            <h3> Author: Chris Northwood</h3>
-            <h3>Year: 2018</h3> 
-            <p> Description: Understand the technical foundations, as well as the non-programming skills needed to be a successful full stack web developer. This book reveals the reasons why a truly successful full stack developer does more than write code. You will learn the principles of the topics needed to help a developer new to agile or full stack working―UX, project management, QA, product management, and more all from the point of view of a developer.</p>
-        </div>
-        <div class="book2">
-            <img src="./imgs/book2.jpg" alt="book2">
-            <h3> Name: JavaScript: The Good Parts</h3>
-            <h3>Author: Douglas Crockford</h3> 
-            <h3> Year: 2008</h3>
-            <p> Description: Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that’s more reliable, readable, and maintainable than the language as a whole-a subset you can use to create truly extensible and efficient code.</p>
-        </div>
-        <div class="book3">
-            <img src="./imgs/book3.jpg" alt="book3">
-            <h3>Name: The crisis</h3> 
-            <h3>Author: Winston Churchill</h3>
-            <h3> Year: 1901 </h3>
-            <P>Description: The Crisis is an historical novel published in 1901 by the American novelist Winston Churchill.[1] It was the best-selling book in the United States in 1901. The novel is set in the years leading up to the first battles of the American Civil War, mostly in the divided state of Missouri. It follows the fortunes of young Stephen Brice, a man with Union and abolitionist sympathies, and his involvement with a Southern family.</P> 
-        </div>
-        <div class="book4">
-            <img  src="./imgs/book4.jpg" alt="book4" >
-            <h3>Name: The Fault in Our Stars</h3>
-            <h3>Author: John Green</h3>
-            <h3>Year: 2012  </h3> 
-            <p>Description: The Fault in Our Stars is a novel by John Green. It is his fourth solo novel, and sixth novel overall. It was published on January 10, 2012. The title is inspired by Act 1, Scene 2 of Shakespeare's play Julius Caesar, in which the nobleman Cassius says to Brutus: The fault, dear Brutus, is not in our stars, But in ourselves, that we are underlings. The story is narrated by Hazel Grace Lancaster, a 16-year-old girl with thyroid cancer that has affected her lungs. Hazel is forced by her parents to attend a support group where she subsequently meets and falls in love with 17-year-old Augustus Waters, an ex-basketball player and amputee.</p>
-            </div>
-            <div class="book5">
-                <img src="./imgs/book5.jpg" alt="book5">
-                <h3> Name: The Da Vinci Code</h3>
-                <h3> Author: Dan Brown</h3>
-                <h3> Year: 2003 </h3>
-                <p> Description: While in Paris on business, Harvard symbologist Robert Langdon receives an urgent late-night phone call: the elderly curator of the Louvre has been murdered inside the museum. Near the body, police have found a baffling cipher. Solving the enigmatic riddle, Langdon is stunned to discover it leads to a trail of clues hidden in the works of da Vinci…clues visible for all to see…and yet ingeniously disguised by the painter.</p>
-            </div>
-            <div class="book6">
-                <img src="./imgs/book6.jpg" alt="book6"> 
-                <h3> Name: Stephen King's Danse Macabre</h3>
-                <h3> Author: Stephen King</h3> 
-                <h3> Year: 1985</h3>
-                <p> Description : From the Flap In his most unusual bestseller, the man who knows better than anyone else in the world what scares us and why, takes us on his personal--and terrifying--tour of the dark ballroom of Horror itself.</p>
-            </div>
-            <div class="book7">
-                <img src="./imgs/book7.jpg" alt="book7">
-                <h3> Name: Misery</h3>
-                <h3> Author: Stephen King</h3> 
-                <h3> Year: 1987</h3> 
-                <p> Description: Misery is an American psychological horror thriller novel written by Stephen King and first published by Viking Press on June 8, 1987.[1] The novel's narrative is based on the relationship of its two main characters – the romance novelist Paul Sheldon and his deranged fan Annie Wilkes. When Paul is seriously injured following a car accident, former nurse Annie brings him to her home, where Paul receives treatment and doses of pain medication. Paul realizes that he is a prisoner and is forced to indulge his captor's whims.</p>
-            </div>
-            <div class="book8">
-                <img  src="./imgs/book8.jpg" alt="book8">
-                <h3> Name: Rich Dad Poor Dad</h3>
-                <h3> Author: Robert T. Kiyosaki </h3> 
-                <h3> Year:  2000 </h3>
-                <p> Description: Rich Dad Poor Dad is a 1997 book written by Robert Kiyosaki and Sharon Lechter. It advocates the importance of financial literacy (financial education), financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligence (financial IQ).</p>
-            </div>
-            
-        </div>
-    
-
-
+      <div class="book1">
+        <img src="./imgs/book1.jpg" alt="book1" />
+        <h3>Name: The Full Stack Developer</h3>
+        <h3>Author: Chris Northwood</h3>
+        <h3>Year: 2018</h3>
+        <p>
+          Description: Understand the technical foundations, as well as the
+          non-programming skills needed to be a successful full stack web
+          developer. This book reveals the reasons why a truly successful full
+          stack developer does more than write code. You will learn the
+          principles of the topics needed to help a developer new to agile or
+          full stack working―UX, project management, QA, product management, and
+          more all from the point of view of a developer.
+        </p>
+      </div>
+      <div class="book2">
+        <img src="./imgs/book2.jpg" alt="book2" />
+        <h3>Name: JavaScript: The Good Parts</h3>
+        <h3>Author: Douglas Crockford</h3>
+        <h3>Year: 2008</h3>
+        <p>
+          Description: Most programming languages contain good and bad parts,
+          but JavaScript has more than its share of the bad, having been
+          developed and released in a hurry before it could be refined. This
+          authoritative book scrapes away these bad features to reveal a subset
+          of JavaScript that’s more reliable, readable, and maintainable than
+          the language as a whole-a subset you can use to create truly
+          extensible and efficient code.
+        </p>
+      </div>
+      <div class="book3">
+        <img src="./imgs/book3.jpg" alt="book3" />
+        <h3>Name: The crisis</h3>
+        <h3>Author: Winston Churchill</h3>
+        <h3>Year: 1901</h3>
+        <p>
+          Description: The Crisis is an historical novel published in 1901 by
+          the American novelist Winston Churchill.[1] It was the best-selling
+          book in the United States in 1901. The novel is set in the years
+          leading up to the first battles of the American Civil War, mostly in
+          the divided state of Missouri. It follows the fortunes of young
+          Stephen Brice, a man with Union and abolitionist sympathies, and his
+          involvement with a Southern family.
+        </p>
+      </div>
+      <div class="book4">
+        <img src="./imgs/book4.jpg" alt="book4" />
+        <h3>Name: The Fault in Our Stars</h3>
+        <h3>Author: John Green</h3>
+        <h3>Year: 2012</h3>
+        <p>
+          Description: The Fault in Our Stars is a novel by John Green. It is
+          his fourth solo novel, and sixth novel overall. It was published on
+          January 10, 2012. The title is inspired by Act 1, Scene 2 of
+          Shakespeare's play Julius Caesar, in which the nobleman Cassius says
+          to Brutus: The fault, dear Brutus, is not in our stars, But in
+          ourselves, that we are underlings. The story is narrated by Hazel
+          Grace Lancaster, a 16-year-old girl with thyroid cancer that has
+          affected her lungs. Hazel is forced by her parents to attend a support
+          group where she subsequently meets and falls in love with 17-year-old
+          Augustus Waters, an ex-basketball player and amputee.
+        </p>
+      </div>
+      <div class="book5">
+        <img src="./imgs/book5.jpg" alt="book5" />
+        <h3>Name: The Da Vinci Code</h3>
+        <h3>Author: Dan Brown</h3>
+        <h3>Year: 2003</h3>
+        <p>
+          Description: While in Paris on business, Harvard symbologist Robert
+          Langdon receives an urgent late-night phone call: the elderly curator
+          of the Louvre has been murdered inside the museum. Near the body,
+          police have found a baffling cipher. Solving the enigmatic riddle,
+          Langdon is stunned to discover it leads to a trail of clues hidden in
+          the works of da Vinci…clues visible for all to see…and yet ingeniously
+          disguised by the painter.
+        </p>
+      </div>
+      <div class="book6">
+        <img src="./imgs/book6.jpg" alt="book6" />
+        <h3>Name: Stephen King's Danse Macabre</h3>
+        <h3>Author: Stephen King</h3>
+        <h3>Year: 1985</h3>
+        <p>
+          Description : From the Flap In his most unusual bestseller, the man
+          who knows better than anyone else in the world what scares us and why,
+          takes us on his personal--and terrifying--tour of the dark ballroom of
+          Horror itself.
+        </p>
+      </div>
+      <div class="book7">
+        <img src="./imgs/book7.jpg" alt="book7" />
+        <h3>Name: Misery</h3>
+        <h3>Author: Stephen King</h3>
+        <h3>Year: 1987</h3>
+        <p>
+          Description: Misery is an American psychological horror thriller novel
+          written by Stephen King and first published by Viking Press on June 8,
+          1987.[1] The novel's narrative is based on the relationship of its two
+          main characters – the romance novelist Paul Sheldon and his deranged
+          fan Annie Wilkes. When Paul is seriously injured following a car
+          accident, former nurse Annie brings him to her home, where Paul
+          receives treatment and doses of pain medication. Paul realizes that he
+          is a prisoner and is forced to indulge his captor's whims.
+        </p>
+      </div>
+      <div class="book8">
+        <img src="./imgs/book8.jpg" alt="book8" />
+        <h3>Name: Rich Dad Poor Dad</h3>
+        <h3>Author: Robert T. Kiyosaki</h3>
+        <h3>Year: 2000</h3>
+        <p>
+          Description: Rich Dad Poor Dad is a 1997 book written by Robert
+          Kiyosaki and Sharon Lechter. It advocates the importance of financial
+          literacy (financial education), financial independence and building
+          wealth through investing in assets, real estate investing, starting
+          and owning businesses, as well as increasing one's financial
+          intelligence (financial IQ).
+        </p>
+      </div>
+      <div class="book9">
+        <img src="./imgs/book9.jpg" alt="book9" />
+        <h3>Name: The 48 Laws of Power</h3>
+        <h3>Author: Robert Greene</h3>
+        <h3>Year: 1998</h3>
+        <p>
+          Description: Greene initially formulated some of the ideas in The 48
+          Laws of Power while working as a writer in Hollywood and concluding
+          that today's power elite shared similar traits with powerful figures
+          throughout history.In 1995, Greene worked as a writer at Fabrica, an
+          art and media school, and met a book packager named Joost Elffers.
+          Greene pitched a book about power to Elffers and six months later,
+          Elffers requested that Greene write a treatment.
+        </p>
+      </div>
+      <div class="book10">
+        <img src="./imgs/book10.jpg" alt="book10" />
+        <h3>Name: Arsène Lupin</h3>
+        <h3>Author: Maurice LeBlanc</h3>
+        <h3>Year: 1908</h3>
+        <p>
+          Description : regretted it - but he had indeed just received his
+          instructions, and, very touched by a choice of which he felt all the
+          honor, he intended to vigorously defend the rights of his client. So
+          he opened the newly created file and, bluntly, exhibited the
+          commander's letter. It proved the assignment of the note but did not
+          mention the name of the purchaser. My dear friend .. she said
+          simply.My dear friend, it is me, added Arsène Lupine in a note
+          attached to the letter from the commander. And the best proof is that
+          I have the letter.
+        </p>
+      </div>
+    </div>
 
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
